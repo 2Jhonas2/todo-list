@@ -207,8 +207,8 @@ Archivo:
 - **Base de Datos:** Railway  
 
 ### Enlaces:
-- Frontend: [https://your-netlify-url](https://todo-list-sena.netlify.app)
-- Backend: [https://your-render-url](https://todo-list-i3jh.onrender.com/)
+- [Frontend:](https://todo-list-sena.netlify.app)
+- [Backend:](https://todo-list-i3jh.onrender.com/)
 - Base de datos: Railway (conexión privada)
 
 ---
