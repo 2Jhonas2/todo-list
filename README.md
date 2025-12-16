@@ -4,7 +4,7 @@ Aplicación fullstack diseñada para gestionar tareas personales con autenticaci
 
 ---
 
-Incluye despliegue real en:
+# Incluye despliegue real en:
 
 - 🌐 Frontend: Netlify
 
