@@ -4,29 +4,29 @@ Aplicación fullstack diseñada para gestionar tareas personales con autenticaci
 
 ---
 
-#Incluye despliegue real en:
+Incluye despliegue real en:
 
--🌐 Frontend: Netlify
+- 🌐 Frontend: Netlify
 
--🧠 Backend: Render
+- 🧠 Backend: Render
 
--🗄️ Base de datos: Railway
+- 🗄️ Base de datos: Railway
 
--🚀 Características
+- 🚀 Características
 
--✅ Gestión de Tareas: Crear, editar, marcar como completadas y eliminar tareas.
+- ✅ Gestión de Tareas: Crear, editar, marcar como completadas y eliminar tareas.
 
--🔐 Autenticación Segura: Registro, inicio de sesión y validación de JWT.
+- 🔐 Autenticación Segura: Registro, inicio de sesión y validación de JWT.
 
--🔒 Rutas Protegidas: Acceso controlado a las funcionalidades según el estado de autenticación.
+- 🔒 Rutas Protegidas: Acceso controlado a las funcionalidades según el estado de autenticación.
 
--💻 Frontend Moderno: Interfaz responsiva y accesible, con diseño limpio utilizando TailwindCSS.
+- 💻 Frontend Moderno: Interfaz responsiva y accesible, con diseño limpio utilizando TailwindCSS.
 
--🧑‍🤝‍🧑 Multiusuario: Cada usuario tiene su propia lista de tareas, con autenticación a través de JWT y encriptación de contraseñas con bcrypt.
+- 🧑‍🤝‍🧑 Multiusuario: Cada usuario tiene su propia lista de tareas, con autenticación a través de JWT y encriptación de contraseñas con bcrypt.
 
--📱 Responsive: Funciona perfectamente en desktop, tablet y móvil.
+- 📱 Responsive: Funciona perfectamente en desktop, tablet y móvil.
 
--🛠️ Tecnologías Utilizadas
+- 🛠️ Tecnologías Utilizadas
 
 ---
 
