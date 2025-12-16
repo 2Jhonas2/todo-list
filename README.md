@@ -1,4 +1,4 @@
-#📝 Todo List App – FullStack (NestJS + React + Prisma + MySQL)
+# 📝 Todo List App – FullStack (NestJS + React + Prisma + MySQL)
 
 Aplicación fullstack diseñada para gestionar tareas personales con autenticación, rutas protegidas y un flujo completo de CRUD. Este proyecto implementa un backend robusto con **NestJS**, **Prisma ORM** y base de datos **MySQL**, junto con un frontend moderno construido en **React** + **Vite** + **TailwindCSS**.
 
