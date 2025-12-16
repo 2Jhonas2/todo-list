@@ -106,6 +106,19 @@ todo-list/
 
 ---
 
+## 📡 API Endpoints
+
+### Autenticación
+- `POST /auth/register` - Registrar nuevo usuario
+- `POST /auth/login` - Iniciar sesión
+
+### Tareas
+- `GET /todos` - Obtener todas las tareas
+- `POST /todos` - Crear nueva tarea
+- `DELETE /todos/:id` - Eliminar tarea
+
+---
+
 # 📦 Instalación Local
 **Requisitos Previos**
 
