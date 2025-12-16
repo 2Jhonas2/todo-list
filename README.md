@@ -30,52 +30,52 @@ Incluye despliegue real en:
 
 ---
 
-#Backend
+# Backend
 
--**NestJS** — Framework modular para Node.js.
+- **NestJS** — Framework modular para Node.js.
 
--**Prisma ORM** — Manejo de base de datos y migraciones.
+- **Prisma ORM** — Manejo de base de datos y migraciones.
 
--**MySQL** — Base de datos relacional.
+- **MySQL** — Base de datos relacional.
 
--**JWT** — Autenticación segura mediante JSON Web Tokens.
+- **JWT** — Autenticación segura mediante JSON Web Tokens.
 
--**Bcrypt** — Hash de contraseñas.
+- **Bcrypt** — Hash de contraseñas.
 
--**Class Validator** / **Class Transformer** — **Validación de DTOs**.
+- **Class Validator** / **Class Transformer** — **Validación de DTOs**.
 
--**CORS** — Configurado para frontend en producción.
-
----
-
-#Frontend
-
--**React 18** + **Vite** — SPA rápida y moderna.
-
--**TypeScript** — Tipado estático para un desarrollo más seguro.
-
--**TailwindCSS** — Estilos responsivos y diseño moderno.
-
--**React Router DOM** — Ruteo y protección de rutas.
-
--**Context API** — Manejo global de sesión.
-
--**Fetch API** — Comunicación con el backend.
+- **CORS** — Configurado para frontend en producción.
 
 ---
 
-#Despliegue
+# Frontend
 
--Render → Backend NestJS
+- **React 18** + **Vite** — SPA rápida y moderna.
 
--Netlify → Frontend React
+- **TypeScript** — Tipado estático para un desarrollo más seguro.
 
--Railway → Base de datos MySQL
+- **TailwindCSS** — Estilos responsivos y diseño moderno.
+
+- **React Router DOM** — Ruteo y protección de rutas.
+
+- **Context API** — Manejo global de sesión.
+
+- **Fetch API** — Comunicación con el backend.
+
+---
+
+# Despliegue
+
+- Render → Backend NestJS
+
+- Netlify → Frontend React
+
+- Railway → Base de datos MySQL
 
 ---
 
 
-#📁 Estructura del Proyecto
+# 📁 Estructura del Proyecto
 ```
 todo-list/
 │
@@ -106,52 +106,51 @@ todo-list/
 
 ---
 
-#📦 Instalación Local
+# 📦 Instalación Local
 **Requisitos Previos**
 
--Node.js 18+
+- Node.js 18+
 
--npm o yarn
+- npm o yarn
 
--MySQL
+- MySQL
 
-#1. Clonar el Repositorio
+1. Clonar el Repositorio
 ```
 git clone <tu-repositorio>
 cd todo-list
 ```
-
-#2. Configurar el Frontend
+2. Configurar el Frontend
 ```
 cd frontend
 npm install
 ```
 
 
-#Crear archivo .env:
+Crear archivo .env:
 ```
 VITE_API_URL=http://localhost:3000
 ```
 
 
-#Iniciar en modo desarrollo:
+Iniciar en modo desarrollo:
 ```
 npm run dev
 ```
 
-#El frontend estará disponible en:
+El frontend estará disponible en:
 ```
 http://localhost:5173.
 ```
 
-#3. Configurar el Backend
+3. Configurar el Backend
 ```
 cd backend
 npm install
 ```
 
 
-#Crear archivo .env:
+Crear archivo .env:
 ```
 DATABASE_URL="mysql://root:password@localhost:3306/todolist"
 FRONTEND_URL="http://localhost:5173"
@@ -159,33 +158,33 @@ PORT=3000
 ```
 
 
-#Generar Prisma Client y migrar la base de datos:
+Generar Prisma Client y migrar la base de datos:
 ```
 npx prisma generate
 npx prisma migrate dev
 ```
 
-#Iniciar el backend:
+Iniciar el backend:
 ```
 npm run start:dev
 ```
 
-#El backend estará disponible en:
+El backend estará disponible en:
 ```
 http://localhost:3000.
 ```
 
 ---
 
-#🔐 Licencia
+# 🔐 Licencia
 
 Este proyecto está licenciado bajo un licenciamiento publico. El código fuente **no** es **modificable**, y su uso está restringido a las personas o entidades que cuenten con autorización explícita del autor.
 
-#👤 Autor
+# 👤 Autor
 
 Jhon Paez - [GitHub](https://github.com/2Jhonas2)
 
-#📝 Notas Adicionales
+# 📝 Notas Adicionales
 
 Si necesitas más información sobre cómo hacer uso de esta aplicación, consultar el código o entender su estructura, no dudes en contactarme.
 
